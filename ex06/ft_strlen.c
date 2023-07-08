@@ -6,17 +6,18 @@
 /*   By: event <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/06 16:21:06 by event             #+#    #+#             */
-/*   Updated: 2023/07/06 16:41:30 by event            ###   ########.fr       */
+/*   Updated: 2023/07/08 13:16:59 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
 	i = 0;
 	while (i[str] != '\0')
 		i++;
+	return (i);
 }
